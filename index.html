@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="node_modules/tachyons/css/tachyons.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
+  <title>Tamagotchi</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>My Tamagotchi</h1>
+      </div>
+      <h3>Add a new Tamagotchi:</h3>
+      <form id="formOne" method='post'>
+        <label for='petname'>Pet Name</label>
+        <input id='petname' name='petname' type='text'>
+        <label for='food'>Amt Of Food(lbs)</label>
+        <input id='food' name='food' type='number'>
+        <label for='attention'>Attention(mins)</label>
+        <input id='attention' name='attention' type='number'>
+        <label for='rest'>Rest(mins)</label>
+        <input id='rest' name='rest' type='number'>
+        <br>
+        <button type='submit'>Add Tamagotchi</button>
+      </form>
+   </div>
+  </body>
+</html>
